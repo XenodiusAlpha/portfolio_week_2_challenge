@@ -1,16 +1,60 @@
 body {
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 23, 109);
+    padding: 0 20px;
+}
+
+h1 {
+    color: azure;
+}
+
+.mainNavList {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    
+}
+
+.mainNavList li {
+    list-style: none;
+}
+
+.mainNavList li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.mainNavList li a:hover {
+    color: rgb(211, 249, 249);
+}
 
 .banner {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
 }
 
 .banner img {
-    /* height: 175px;
-    width: 350px; */
-    transform: scale(0.50, 0.40);
+    height: 175px;
+    width: 350px;
+}
 
+.banner h3 {
+    padding-right: 40px;
+    color: rgb(36, 23, 109);
+}
+
+#aboutMe {
+    
 }
