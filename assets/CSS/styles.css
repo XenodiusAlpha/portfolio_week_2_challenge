@@ -56,5 +56,48 @@ h1 {
 }
 
 #aboutMe {
-    
+    display: flex;
+    justify-content: center; 
+    padding: 40px 20px;
+}
+
+#aboutMe h2 {
+    border-right: 5px solid rgb(181, 218, 218);
+    padding-right: 10px;
+    width: 120px;
+    font-size: 2rem;
+}
+
+#aboutMe p {
+    width: 70%;
+    height: 100px;
+    padding: 10px 0 0 50px;
+}
+
+#work {
+    display: flex;
+    justify-content: center; 
+    padding: 40px 20px;
+    background-color: teal;
+}
+
+#work h2 {
+    border-right: 5px solid rgb(181, 218, 218);
+    width: 120px;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+.contentProjects {
+    width: 70%;
+    padding: 10px 0 0 50px;
+}
+
+.mainProject img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.secondaryProject img {
+    width: 40%;
 }
