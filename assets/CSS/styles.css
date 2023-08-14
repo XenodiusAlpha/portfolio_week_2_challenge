@@ -35,7 +35,7 @@ h1 {
 }
 
 .mainNavList li a:hover {
-    color: rgb(211, 249, 249);
+    color: goldenrod;
 }
 
 .banner {
@@ -62,7 +62,7 @@ h1 {
 }
 
 #aboutMe h2 {
-    border-right: 5px solid rgb(181, 218, 218);
+    border-right: 5px solid rgb(36, 23, 109);
     padding-right: 10px;
     width: 120px;
     font-size: 2rem;
@@ -78,11 +78,10 @@ h1 {
     display: flex;
     justify-content: center; 
     padding: 40px 20px;
-    background-color: teal;
 }
 
 #work h2 {
-    border-right: 5px solid rgb(181, 218, 218);
+    border-right: 5px solid goldenrod;
     width: 120px;
     padding-right: 10px;
     font-size: 2rem;
@@ -93,11 +92,71 @@ h1 {
     padding: 10px 0 0 50px;
 }
 
+.contentProjects h4 {
+    background-color: rgb(36, 23, 109);
+    color: goldenrod;
+    width: 180px;
+    padding: 20px 0 20px 20px;
+}
+
 .mainProject img {
     width: 100%;
     padding-top: 20px;
 }
 
-.secondaryProject img {
-    width: 40%;
+.secondaryProject {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+#secondaryProjects {
+    width: 50%;
+}
+
+#secondaryProjects img {
+    width: 99%;
+    padding-top: 20px;
+}
+
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 0;
+}
+
+.contactMe h2 {
+    border-right: 5px solid rgb(36, 23, 109);
+    width: 120px;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+
+#contactMeList {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 100px;
+    padding: 10px 0 0 50px;
+}
+
+#contactMeList li {
+    list-style: none;
+}
+
+#contactMeList li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contactMeList li a:hover {
+    color: goldenrod;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
